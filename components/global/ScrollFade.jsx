@@ -1,8 +1,8 @@
 import React from 'react';
 import { LinearGradient } from 'expo-linear-gradient';
 
-export const ScrollFade = ({ top = true, position = { top: 0 }, height = 15 }) => {
-  const colors = top ? ['white', 'transparent'] : ['transparent', 'white'];
+export const ScrollFade = ({ top = true, position = { top: 0 }, height = 10 }) => {
+  const colors = top ? ['rgba(f,f,f,0.8)', 'transparent'] : ['transparent', 'rgba(f,f,f,0.8)'];
 
   return (
     <LinearGradient
